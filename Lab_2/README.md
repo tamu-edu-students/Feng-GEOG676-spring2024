@@ -3,4 +3,4 @@
 
 
 - [Lab2 Python code](Lab_2/lab_2.py)
-- [Lab2 Screenshot of results](Lab_2/lab_2.png)
+- [Lab2 Screenshot of results](Lab_2/lab_2.PNG)
