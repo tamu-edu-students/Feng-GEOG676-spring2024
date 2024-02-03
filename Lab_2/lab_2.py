@@ -15,7 +15,10 @@ print("%s is the result of part 1" %part1_result)
 
 part2 = [-1, 23, 483, 8573, -13847, -381569, 1652337, 718522177]
 
-part2_result = sum(part2)
+part2_result = 0
+
+for i in part2:
+    part2_result += i
 
 print("%s is the result of part 2" %part2_result)
 
