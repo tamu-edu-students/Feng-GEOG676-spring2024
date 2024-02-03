@@ -30,4 +30,4 @@ for i in part3:
     if i % 2 == 0:
         part3_result += i
 
-print("%s is the result of part 3" % part3_result)
+print("%s is the result of part 3" %part3_result)
