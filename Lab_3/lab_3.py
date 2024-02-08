@@ -48,8 +48,8 @@ def creat_shape(imputs):    #function of creat shape from imput text
 
         elif shape_name == 'Triangle':  #creat triangle and print the area
             shape_tri = Triangle(raw_shape[1], raw_shape[2])
-            print('Area od the triangle is: ', shape_tri.getArea())
+            print('Area of the triangle is: ', shape_tri.getArea())
         
         else: pass
 
-creat_shape(text_lines)     #creat shpes from the data of the import text
+creat_shape(text_lines)     #creat shpes by the data from the imported text
