@@ -1,5 +1,5 @@
 # Guangxi Feng 24 SPRING GEOG 676: GIS PROGRAMMING
-### Lab2 Fun with loops
+### Lab3  object oriented programming 
 
 
 - [Lab3 Python code](lab_3.py)
