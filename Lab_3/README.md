@@ -4,3 +4,4 @@
 
 - [Lab3 Python code](lab_3.py)
 - [Lab3 Screenshot of results](lab_3.PNG)
+! (lab_3.PNG)
