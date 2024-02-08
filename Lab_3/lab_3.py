@@ -52,4 +52,4 @@ def creat_shape(imputs):    #function of creat shape from imput text
         
         else: pass
 
-NewShapes = creat_shape(text_lines)     #creat shpes from the data of the import text
+creat_shape(text_lines)     #creat shpes from the data of the import text
