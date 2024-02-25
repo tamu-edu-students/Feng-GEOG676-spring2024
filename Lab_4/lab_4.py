@@ -21,12 +21,12 @@ arcpy.Copy_management(layer_BLDG_o, layer_BLDG)
 
 #re-project
 ref_Spatial = arcpy.Describe(layer_BLDG).spatialReference
-layer_GAR_pt = path_gdb + "/GAR_pt"
-arcpy.Project_management(layer_GAR_pt_o, layer_GAR_pt, ref_Spatial)
+layer_GAR = path_gdb + "/GAR_pt"
+arcpy.Project_management(layer_GAR_pt_o, layer_GAR, ref_Spatial)
 
 #buffer garages
 name_GAR_buffered = "/GAR_buf" + bufferDis.split(" ")[0].replace(".","_")
-layer_GAR_buffered = arcpy.Buffer_analysis(layer_GAR_pt, path_gdb + name_GAR_buffered, bufferDis)
+layer_GAR_buffered = arcpy.Buffer_analysis(layer_GAR, path_gdb + name_GAR_buffered, bufferDis)
 
 #intersect buffered garages with buildings
 arcpy.Intersect_analysis([layer_GAR_buffered, layer_BLDG], path_gdb + "/GAR_BLDG_int", "ALL")
