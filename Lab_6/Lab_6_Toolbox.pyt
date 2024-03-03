@@ -125,7 +125,7 @@ class GraduateColorsRenderer(object):
 
         project.saveACopy(parameters[2].valueAsText + "\\" + parameters[3].valueAsText + ".aprx")
 
-        # Increment the progressor and change the label; add message to the results pane #3
+        # Increment the progressor and change the label; add message to the results pane #4
         arcpy.SetProgressorPosition(maximum) #100%
         arcpy.SetProgressorLabel("Finished")
         time.sleep(readTime)
